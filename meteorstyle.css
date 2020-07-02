@@ -1,0 +1,80 @@
+body {
+    background: #f39b53;
+}
+
+#time-holder {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    /* CSS provided by neumorphism.io */
+    border-radius: 50px;
+    background: #f39b53;
+    box-shadow:  20px 20px 60px #cf8447, 
+             -20px -20px 60px #ffb25f;
+}
+
+#txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 225px;
+    height: min-content;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    font-family: 'Pangolin', sans-serif;
+    font-size: 60px;
+    color: white;
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#btn {
+    margin-top: 100px;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+button {
+    width: inherit;
+    height: inherit;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 9px #ce8243;
+}
+
+button:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #ce8243;
+    transform: translateY(4px);
+  }
+
+#time-list {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+    color: black;
+    font-family: sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: inset 20px 20px 60px #d9d9d9, 
+            inset -20px -20px 60px #ffffff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
